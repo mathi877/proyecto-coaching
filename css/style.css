@@ -13,6 +13,8 @@
     --font_style_gruppo: "Gruppo", sans-serif;
 }
 
+/* ------------- */
+
 body{
     width: 90vw;
     scroll-behavior: smooth;
@@ -40,4 +42,19 @@ body{
 
 .menu_hamburguesa:checked + .ul_links {
     height: calc(100vh - var(--altura_header));
+}
+
+/* ---------  Titulo de la pagina -------- */
+
+.title {
+    font-family: var(--font_style_lexend);
+    font-weight: 400;
+    padding: 10px 10px 0 30px;
+    font-size: 19px;
+
+}
+.title__secundario {
+    font-family: var(--font_style_gruppo);
+    font-size: 15px;
+    padding-left: 54px;
 }
