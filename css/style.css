@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --color_primario: white;
+    --color_secundario: rgb(57, 140, 173);
+    --altura_header: 80px;
+    --padding_left_right: 2rem;
+    --font_style_lexend: "Lexend Deca", sans-serif;
+    --font_style_gruppo: "Gruppo", sans-serif;
+}
