@@ -32,3 +32,12 @@ body{
     position: relative;
     z-index: 3;
 }
+
+.menu_hamburguesa{
+    display: none;
+}
+/* Cuando el menu hamburguesa este chequeado,tipo checkbox, a su hermano adyasente (ul_links), quiero que le des este estilo.*/
+
+.menu_hamburguesa:checked + .ul_links {
+    height: calc(100vh - var(--altura_header));
+}
