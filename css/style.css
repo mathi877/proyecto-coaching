@@ -101,3 +101,17 @@ body{
 
 
 /*--------------------------------------*/
+
+/* -------- Imagen principal del sitio -------- */
+
+.content{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
