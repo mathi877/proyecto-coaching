@@ -12,3 +12,23 @@
     --font_style_lexend: "Lexend Deca", sans-serif;
     --font_style_gruppo: "Gruppo", sans-serif;
 }
+
+body{
+    width: 90vw;
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: var(--altura_header);
+    width: 100vw;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 3;
+}
