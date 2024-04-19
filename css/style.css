@@ -205,3 +205,36 @@ body{
 
 /* --------- Siguiente seccion ----------- */
 
+.raya{
+    font-weight: 900;
+    color: black;
+    font-size: 2.7rem;
+    margin-left: 22.5px;
+}
+
+
+.section{
+    height: auto;
+    width: 100vw;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 30px 21px;
+}
+
+.second_title{
+    font-family: "Lexend deca", sans-serif;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.article_parrafo{
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-align: justify;
+    padding-top: 11px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 28px;
+    letter-spacing: .5px;
+}
