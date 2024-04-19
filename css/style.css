@@ -164,3 +164,41 @@ body{
     transition: .2s;
     border: 1.5px solid rgb(251, 183, 75) ;
 }
+
+/* ------- Texto sobre la imagen --------- */
+
+.text{
+    width: 100vw;
+    height: 54px;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left:0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font_style_gruppo);
+    font-weight: 200;
+    font-size: 1.7rem;
+    background-color: rgba(255, 255, 255, 0.316);
+    
+}
+
+.text2{
+    width: 100vw;
+    height: 60px;
+    position: absolute;
+    top: 160px;
+    bottom: 0;
+    left:0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font_style_lexend);
+    letter-spacing: 9px;
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.315);
+    
+}
