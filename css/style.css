@@ -128,3 +128,39 @@ body{
     object-fit: cover;
     
 }
+
+/* ---------- Botón de enlace ------------ */
+
+.content_enlace{
+    display: inline-block;
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    top: 350px;
+    bottom: 0;
+    left:0;
+    right: 0;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    font-family: var(--font_style_lexend);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: black;
+    background-color: rgb(251, 183, 75);
+    border-radius: 10px;
+    border: 1.5px solid white;
+}
+
+.content_enlace:hover{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(251, 183, 75);
+    transition: .2s;
+    border: 1.5px solid rgb(251, 183, 75) ;
+}
