@@ -115,3 +115,16 @@ body{
     left: 0;
     bottom: 0;
 }
+
+.figure_img{
+    position: relative;
+    display: flex;
+} 
+
+
+.img{
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    
+}
