@@ -306,3 +306,155 @@ body{
     width: 100vw;
     border-radius: 50%;
 }
+
+/*----------- Siguiente sección----------*/
+
+.section3{
+    word-spacing: -3px;
+    font-weight: 200;
+    font-size: 1.3rem;
+    height: auto;
+    width: 100vw;
+    padding: 45px 21px 20px 21px;
+    
+}
+
+/*----------- Siguiente sección----------*/
+
+.section4{
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caja_1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 80vw;
+    height: 240px;
+    align-items: center;
+    padding: 21px 0;
+    border: 3.5px solid rgb(251, 183, 75);
+    
+}
+
+.caja_2{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 260px;
+    align-items: center;
+    padding: 21px 0;
+    border: 3.5px solid rgb(251, 183, 75);
+   margin-bottom: 20px;
+   
+    
+    
+}
+
+.caja_3{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 260px;
+    align-items: center;
+    padding: 21px 0;
+    border: 3.5px solid rgb(251, 183, 75);
+    
+}
+
+.caja_title{
+   padding-bottom: 2px;
+    font-family: var(--font_style_lexend);
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+   
+   
+    
+}
+
+.caja_title2{
+    display: inline-block;
+    padding-bottom: 2px;
+    font-family: var(--font_style_lexend);
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    justify-self: center;
+}
+
+.caja_parrafo{
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.caja_enlace{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(18, 146, 185);
+    padding: 12px 0;
+    
+    justify-content: center;
+}
+
+.enlace2{
+    font-family: var(--font_style_lexend);
+    
+    padding: 12px 19px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.7px;
+    overflow: hidden;
+    
+}
+
+.enlace2:hover{
+    background-color: rgb(129, 211, 240);
+    color: rgb(29, 82, 142);
+}
+
+/* Botón de MAS SERVICIOS*/
+
+.raya{
+    font-weight: 900;
+    color: black;
+    font-size: 2.7rem;
+    margin-left: 22.5px;
+}
+
+.enlace3{
+   text-decoration: none;
+   color: black;
+   display: flex;
+   background-color: rgb(251, 183, 75);
+   border-radius: 10px;
+   border: 1.5px solid black;
+   padding: 15px;
+   margin: 30px 0;
+   font-size: 1.2rem;
+   font-family: var(--font_style_lexend);
+   overflow: hidden;
+}
+
+
+.enlace3:hover{
+    background-color: black;
+    color: rgb(251, 183, 75);
+    transition: .2s;
+    border: 1.5px solid rgb(251, 183, 75) ;
+    text-decoration: none;
+    font-family: var(--font_style_lexend);
+    padding: 15px;
+    
+}
