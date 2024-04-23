@@ -242,7 +242,7 @@ body{
     height: auto;
     width: 100vw;
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 30px 21px;
 }
 
@@ -253,7 +253,7 @@ body{
 }
 
 .article_parrafo{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     overflow: hidden;
     text-align: justify;
     padding-top: 11px;
@@ -275,7 +275,7 @@ body{
     border: 1.5px solid black;
     text-decoration: none;
     padding: 15px;
-    margin-top: 11px;
+    margin-top: 20px;
     font-size: 1.2rem;
     font-family: var(--font_style_lexend);
 }
