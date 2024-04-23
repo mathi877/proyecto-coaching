@@ -16,7 +16,7 @@
 /* ------------- */
 
 body{
-    width: 90vw;
+    width: 100vw;
     scroll-behavior: smooth;
 }
 
@@ -278,6 +278,6 @@ body{
 
 
 .img2{
-    width: 360px;
+    width: 100vw;
     border-radius: 50%;
 }
