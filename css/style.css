@@ -480,4 +480,34 @@ body{
      font-size: 1.2rem;
  }
 
- 
+ /* ---- Enlaces a distintas redes sociales ------- */
+
+ .enlace_footer{
+    margin-top: 25px;
+    padding: 0 15px;
+    display: inline-block;
+    flex-direction: row;
+    width: 100vw;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+
+    
+}
+
+.bi-facebook{
+    width: 30px;
+   
+}
+
+.bi-twitter-x{
+    width: 30px;
+}
+.bi-instagram{
+    width: 30px;
+}
+
+.bi-youtube{
+    width: 30px;
+}
+
