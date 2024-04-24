@@ -458,3 +458,26 @@ body{
     padding: 15px;
     
 }
+
+/* --------- Footer ------------- */
+
+/* ---- Texto de contacto ------ */
+
+.section_footer{
+    background-color: rgb(18, 146, 185);
+    width: 100vw;
+ }
+ 
+ .title_footer{
+     font-family: "Lexend deca", sans-serif;
+     padding: 30px 21px;
+     letter-spacing: 4px;
+     font-size: 1.4rem;
+ }
+ 
+ .parrafo_footer{
+     padding: 10px 15px;
+     font-size: 1.2rem;
+ }
+
+ 
