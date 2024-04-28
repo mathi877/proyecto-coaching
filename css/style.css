@@ -18,13 +18,12 @@
 body{
     width: 100vw;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    
 }
 
 .header {
     height: var(--altura_header);
-    width: 100vw;
-    
+    width: 100vw;    
 }
 .navbar {
     display: flex;
@@ -34,20 +33,26 @@ body{
     flex-wrap: wrap;
     position: relative;
     z-index: 3;
+    
 }
 
 .label_hamburguesa{
     padding-right: 20px;
+    
+    
 }
 
 .menu_hamburguesa{
     display: none;
+    
 }
 /* Cuando el menu hamburguesa este chequeado,tipo checkbox, a su hermano adyasente (ul_links), quiero que le des este estilo.*/
 
 .menu_hamburguesa:checked + .ul_links {
     height: calc(100vh - var(--altura_header));
 }
+
+
 
 /* ---------  Titulo de la pagina -------- */
 
