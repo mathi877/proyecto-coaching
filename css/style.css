@@ -502,6 +502,7 @@ body{
     padding: 30px 21px;
     position: relative;
     top: 180px;
+    
 }
 
 .raya-secundaria{
@@ -544,7 +545,7 @@ body{
 
 .title-cert{
     font-family: "Lexend deca", sans-serif;
-    margin-top: 20px;
+    margin-top: 40px;
     letter-spacing: 1px;
     font-size: 1.5rem;
 }
@@ -552,10 +553,14 @@ body{
 .ul-cert{
     font-family: var(--font_style_gruppo);
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 20px;
+    padding-left: 30px;
     margin-left: 6.5px;
     margin-top: 20px;
+    background-color: rgb(251, 183, 75);
+    border-radius: 20px;
 }
+
 
 
 
