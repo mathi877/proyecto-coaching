@@ -540,6 +540,23 @@ body{
     width: 22vw;
 }
 
+/* ------ Certificaciones ------*/
+
+.title-cert{
+    font-family: "Lexend deca", sans-serif;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.ul-cert{
+    font-family: var(--font_style_gruppo);
+    font-size: 1.5rem;
+    padding: 15px;
+    margin-left: 6.5px;
+    margin-top: 20px;
+}
+
 
 
 /* --------- Footer ------------- */
