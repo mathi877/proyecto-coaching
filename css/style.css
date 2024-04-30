@@ -339,7 +339,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1em;
+}
+
+.caja_raya{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
     
+    
+}
+
+
+.caja_parrafo{
+    font-family: "Space Grotesk", sans-serif;
 }
 
 .caja_1{
@@ -376,26 +389,58 @@ body{
     align-items: center;
     padding: 21px 0;
     border: 3.5px solid rgb(251, 183, 75);
+    margin-bottom: 20px;
     
 }
 
+/* Cajas de archivo servicios*/
+
+
+.caja_4{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 260px;
+    align-items: center;
+    padding: 21px 0;
+    border: 3.5px solid rgb(251, 183, 75);
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.caja_5{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 240px;
+    align-items: center;
+    padding: 21px 0;
+    border: 3.5px solid rgb(251, 183, 75);
+    margin-bottom: 20px;
+}
+
+.caja_6{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 260px;
+    align-items: center;
+    padding: 21px 0;
+    border: 3.5px solid rgb(251, 183, 75);
+    margin-bottom: 40px;
+}
+
 .caja_title{
-   padding-bottom: 2px;
     font-family: var(--font_style_lexend);
     letter-spacing: 5px;
     font-size: 1.2rem;
     justify-content: center;
     align-items: center;
     align-self: center;
-    
-   
-   
-    
 }
 
 .caja_title2{
     display: inline-block;
-    padding-bottom: 2px;
     font-family: var(--font_style_lexend);
     letter-spacing: 5px;
     font-size: 1.2rem;
@@ -405,6 +450,8 @@ body{
     justify-self: center;
     justify-self: center;
 }
+
+
 
 .caja_parrafo{
     padding-bottom: 15px;
