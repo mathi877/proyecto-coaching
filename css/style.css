@@ -500,9 +500,23 @@ body{
     font-weight: 200;
     font-size: 1.5rem;
     padding: 30px 21px;
+    margin-bottom: 145px;
     position: relative;
     top: 180px;
     
+    
+}
+
+.tercer-section-sobre-mi{
+    height: auto;
+    width: 100vw;
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: 30px 21px;
+    margin-bottom: 10px;
+    position: relative;
+    
+
 }
 
 .raya-secundaria{
