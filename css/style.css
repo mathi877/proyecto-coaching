@@ -560,8 +560,8 @@ body{
 .title-cert{
     font-family: "Lexend deca", sans-serif;
     margin-top: 40px;
-    letter-spacing: 1px;
-    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
 }
 
 .ul-cert{
@@ -573,6 +573,8 @@ body{
     margin-top: 20px;
     background-color: rgb(251, 183, 75);
     border-radius: 20px;
+    font-weight: 600;
+    word-spacing: 8px;
 }
 
 
