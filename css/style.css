@@ -14,7 +14,47 @@
 }
 
 /* ------------- */
+@media screen and (prefers-color-scheme:dark){
+    body{
+        background-color: black;
 
+    }
+    
+    
+
+    .label_hamburguesa{
+        color: white;
+       
+    }
+    
+    .title{
+        color: white;
+    }
+
+    .title__secundario{
+        color: white;
+    }
+   
+    .second_title{
+        color: white;
+    }
+
+   .article_parrafo{
+    color: white;
+   }
+   
+   .sec_enlace{
+    color: white;
+    border-color: white;
+   }
+}
+
+
+@media screen and (prefers-color-scheme:light) {
+    body{
+        background-color: white;
+    }
+}
 body{
     width: 100vw;
     scroll-behavior: smooth;
@@ -584,6 +624,7 @@ body{
     top: 200px;
     margin-left: 20px;
     margin-top: 20px
+    
 }
 
 .div-icon-1{
@@ -596,10 +637,12 @@ body{
 
 .div-icon-3{
     width: 22vw;
+   
 }
 
 .div-icon-4{
     width: 22vw;
+    
 }
 
 /* ------ Certificaciones ------*/
@@ -630,6 +673,14 @@ body{
 /* --------- Footer ------------- */
 
 /* ---- Texto de contacto ------ */
+
+
+.raya_footer{
+    font-weight: 900;
+    color: black;
+    font-size: 2.7rem;
+    margin-left: 22.5px;
+   }
 
 .section_footer{
     background-color: rgb(18, 146, 185);
@@ -750,4 +801,94 @@ body{
 .copyr{
     margin-top: 40px;
     padding: 10px 15px;
+}
+
+
+/*--------- dark ---------- */
+@media screen and (prefers-color-scheme:dark){
+    body{
+        background-color: black;
+
+    }
+    
+    
+
+    .label_hamburguesa{
+        color: white;
+       
+    }
+
+    .raya{
+        color: white;
+    }
+    
+    .title{
+        color: white;
+    }
+
+    .title__secundario{
+        color: white;
+    }
+   
+    .second_title{
+        color: white;
+    }
+
+   .article_parrafo{
+    color: white;
+   }
+   
+   .sec_enlace{
+  
+    border: 2px solid white;
+   }
+
+  
+   .div-icons{
+    background-color: white;
+    
+   }
+
+   .caja_1{
+     background-color: white;
+   }
+   
+   .caja_2{
+    background-color: white;
+   }
+
+   .caja_3{
+    background-color: white;
+   }
+
+   .caja_4{
+    background-color: white;
+   }
+   .caja_5{
+    background-color: white;
+   }
+
+   .caja_6{
+    background-color: white;
+   }
+
+   .raya_footer{
+    font-weight: 900;
+    color: black;
+    font-size: 2.7rem;
+    margin-left: 22.5px;
+   }
+
+   .enlace3{
+    border: 2px solid white;
+   }
+
+   /*----- sobre mi -------*/
+   .raya-secundaria{
+    color: white;
+   }
+
+   .title-cert{
+    color: white;
+   }
 }
