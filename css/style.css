@@ -69,6 +69,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
     height: 100%;
     flex-wrap: wrap;
     position: relative;
@@ -435,6 +436,9 @@ body{
 
 /* Cajas de archivo servicios*/
 
+.img-servicio{
+    width: 100vw;
+}
 
 .caja_4{
     display: flex;
@@ -752,6 +756,7 @@ body{
   background-color: rgb(18, 146, 185);
   border: solid rgb(36, 33, 33) 2px;
   display: inline-block;
+  padding-left: 10px;
   
 }
 
@@ -767,6 +772,7 @@ body{
     background-color: rgb(18, 146, 185);
     border: solid rgb(36, 33, 33) 2px;
     display: inline-block;
+    padding-left: 10px;
 }
 
 .input_submit::placeholder{
